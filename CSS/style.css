@@ -1,0 +1,73 @@
+
+:root{
+    /* paleta */
+    --yellow: #e4c844ff;
+    --pink: #e344be;
+    --green: #44e3e0;
+    --brown: #1b1911;
+    --grey: #d2d7da;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+    html { scroll-behavior: smooth; }
+}
+
+body{
+    font-size: 1.6px;
+}
+
+body::selection{
+    background-color: var(--yellow);
+    color: var(--pink);    
+    font-weight: 900;
+}
+
+li{
+    font-size: 2rem;
+}
+
+.carousel-item img { 
+    max-height: 300px;
+    width: auto; 
+    margin: 0 auto; 
+    border-radius: 8px;
+}
+
+.bg-pink{
+    background-color: var(--pink);
+    color: var(--brown);
+    margin-top: 100px;
+}
+
+.bg-green{
+    background-color: var(--green);
+    color: var(--brown);
+        border-bottom: solid 5px var(--pink);
+}
+
+.bg-grey{
+    background-color: var(--grey);
+    color: var(--brown);
+}
+
+a{  
+    font-size: 5vmin;
+    font-weight: 600;
+    color: var(--grey);    
+}
+
+p{
+    
+    margin: 30px;
+}
+a:hover{
+    cursor: pointer;
+}
