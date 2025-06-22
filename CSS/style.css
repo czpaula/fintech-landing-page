@@ -24,6 +24,9 @@ body{
     font-size: 1.6px;
 }
 
+h1{
+    color: var(--yellow);
+}
 body::selection{
     background-color: var(--yellow);
     color: var(--pink);    
@@ -31,13 +34,10 @@ body::selection{
 }
 
 li{
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .carousel-item img { 
-    max-height: 250px;
-    width: auto; 
-    margin: 0 auto; 
     border-radius: 8px;
 }
 
@@ -50,7 +50,7 @@ li{
 .bg-green{
     background-color: var(--green);
     color: var(--brown);
-        border-bottom: solid 5px var(--pink);
+    border-bottom: solid 5px var(--pink);
 }
 
 .bg-grey{
