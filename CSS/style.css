@@ -51,6 +51,7 @@ li{
     background-color: var(--green);
     color: var(--brown);
     border-bottom: solid 5px var(--pink);
+    font-weight: 900;
 }
 
 .bg-grey{
